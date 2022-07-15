@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@700&family=Inconsolata:wght@900&family=Poppins&family=Rubik+Moonrocks&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: 'Inconsolata', monospace;
+
+  font-family: 'Poppins', sans-serif;
+  
+}
+nav{
+  width: 100%;
+  background-color: light;
+  height: 73px;
+  padding: 10px;
+  position: sticky;
+  /* display: inline-block; */
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    position: sticky;
+}
+.container h1{
+  color:rgb(139, 0, 0);
+
+  font-family: 'Inconsolata', monospace;
+
+  font-family: 'Poppins', sans-serif;
+
+  margin: 0px 40px 0px 0px;
+}
+.btn{
+    background-color: #02aa44;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 45px;
+    cursor: pointer;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+}
+.menu{
+    display:flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    position: sticky;
+}
+.menu li {
+    margin:10px;
+    list-style: none;
+    position: sticky;
+}
+.menu li a{
+    text-decoration: none   ;
+    color: #710000;
+}
+.show-case{
+    height:95vh;
+    background-color: #0f1410;
+}
+.show-case-items{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.hero-txt{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content:space-around;
+  margin: 10% auto 10% 10%;
+}
+.txt2{
+  margin-bottom: 90px;
+}
+.logo{
+  font-size: 3rem;
+  font-weight: 800;
+  margin-left:2rem
+}
+.abt{
+  padding: auto 10px !important; 
+}
+.footer{
+  height: 300 px;
+  
+}
